@@ -308,3 +308,17 @@ span.cancel {
   margin-top: 10px;
 }
 
+/* allProduct css */
+.allProduct{
+  border: 1px solid black;
+  width: 30%;
+  height: 26vh;
+  margin: 10px  auto;
+  text-align: center;
+ }
+ 
+ .main-div{
+  display: flex;
+  flex-wrap: wrap;
+ }
+/* allProduct css */

@@ -10,6 +10,6 @@ const productStorage = multer.diskStorage({
       cb(null, file.originalname)
     }
   })
-const productUpload= multer({ storage: productStorage }).single('product')
+const productImg= multer({ storage: productStorage }).single('product')
 
-exports.productUpload=productUpload
+exports.productImg=productImg

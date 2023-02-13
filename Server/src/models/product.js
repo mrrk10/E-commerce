@@ -25,10 +25,10 @@ description:{
     required:true,
     default:"test"
 },
-images:{
+image:{
     type:String,
-    required:true,
-    default:'this is a image'
+    required:true
+   
 }
 
  
