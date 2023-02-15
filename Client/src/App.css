@@ -1,15 +1,15 @@
-body{
+body {
   font-size: 14px;
   line-height: 25px;
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
-ul{
+/* ul{
   padding-left: 0
 }
 
@@ -35,9 +35,9 @@ h1{
   max-width: 80%;
   width: 100%;
   margin: 0 auto
-}
+} */
 
-input,select{
+/* input,select{
     height: 40px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -101,7 +101,7 @@ select option:disabled {
 }
 
 /*header*/
-.header {
+/* .header {
   background: #ffcc00;
 }
 
@@ -161,11 +161,11 @@ li.active .menu-dropdown {
   font-size: 18px;
   padding: 0;
   line-height: 6px;
-}
+} */
 
 /* card */
 
-.card_block{
+/* .card_block{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -306,19 +306,86 @@ span.cancel {
 }
 .register-loginLink{
   margin-top: 10px;
+} */
+*/
+
+/* allProduct css */
+
+.product-main-div {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 150px 150px 150px;
+  
+}
+
+.allProduct {
+  border: 1px solid black;
+  width: 279px;
+  height: 169px;
+  text-align: center;
 }
 
 /* allProduct css */
-.allProduct{
-  border: 1px solid black;
-  width: 30%;
-  height: 26vh;
-  margin: 10px  auto;
-  text-align: center;
- }
- 
- .main-div{
+
+/* navbar */
+
+nav {
   display: flex;
-  flex-wrap: wrap;
- }
-/* allProduct css */
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  height: 5rem;
+  padding: 10px;
+  font-size: 15px;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  padding: 0 50px;
+  
+}
+
+/* navbar */
+
+
+
+/* herSection css */
+
+.container-intro{
+  width:1200px;
+  margin: 0 auto;
+
+}
+
+.intro-data{
+  margin: 150px 0 0 150px;
+}
+
+.intro-data p{
+  margin: 10px 0;
+}
+.intro-data button{
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+}
+.intro-data text{
+  font-size: 50px;
+}
+
+/* gird */
+
+
+.grid-two-column{
+  display:grid ;
+  grid-template-columns: auto auto;
+  
+
+}
+/* gird */
+
+
+/* herSection css */

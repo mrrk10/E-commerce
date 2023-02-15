@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import '../App.css';
+import '../../App.css';
 const Product = () => {
   const [productData, setproductData] = useState([]);
   const baseDict = "http://localhost:5000/uploads";
@@ -13,9 +13,10 @@ const Product = () => {
   useEffect(() => {
     fetchImg();
   }, []);
+ 
   return (
     <>
-    <div className="main-div">
+    <div className="product-main-div"  style={{display:"grid",gap:"20px",gridTemplateColumns:"277px 277px 277px  "}}  >
       {productData &&
         productData.map((each) => {
           return (
